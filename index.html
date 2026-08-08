@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Emeka Momodu — Software Engineer</title>
+
+<meta name="description" content="Emeka Momodu — software engineer. Backend and full-stack, with a specialty in low-latency programming for capital markets trading and quantitative engineering.">
+<meta name="author" content="Emeka Momodu">
+<meta name="theme-color" content="#0b0f14">
+<link rel="canonical" href="https://www.emekamomodu.com/">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Emeka Momodu — Software Engineer">
+<meta property="og:description" content="Backend and full-stack engineer. Low-latency programming for capital markets trading and quantitative engineering.">
+<meta property="og:url" content="https://www.emekamomodu.com/">
+<meta name="twitter:card" content="summary">
+
+<!-- Inline SVG favicon: a terminal prompt. No network request, no 404. -->
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='18' fill='%230b0f14'/><path d='M22 32l18 18-18 18' fill='none' stroke='%238fa8c8' stroke-width='11' stroke-linecap='round' stroke-linejoin='round'/><path d='M52 70h26' stroke='%238fa8c8' stroke-width='11' stroke-linecap='round'/></svg>">
+
+<link rel="stylesheet" href="styles.css">
+
+<!-- Set this before first paint so the intro never flashes on screen
+     before main.js hides it to replay as a typing animation. -->
+<script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<nav class="nav" aria-label="Primary">
+  <div class="nav__inner">
+    <a class="nav__brand" href="#top" aria-label="Home">
+      <span class="nav__brand-prompt">~/</span>emeka
+    </a>
+    <ul class="nav__list">
+      <li><a href="#skills">skills</a></li>
+      <li><a href="#projects">projects</a></li>
+      <li><a href="#contact">contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<main id="main">
+
+  <!-- ══════════════ HERO / TYPED INTRO ══════════════ -->
+  <section id="top" class="hero">
+    <div class="window" role="region" aria-label="Introduction">
+      <div class="window__bar">
+        <span class="window__dots" aria-hidden="true"><i></i><i></i><i></i></span>
+        <span class="window__title">emekamomodu@machine — ~/intro — zsh</span>
+      </div>
+
+      <!-- Content is in the HTML so it works with JS disabled and is indexable.
+           main.js hides it and replays it as a typing animation. -->
+      <div class="window__body term" id="intro">
+
+        <p class="line line--cmd" data-anim="cmd"><span class="prompt" aria-hidden="true"><b>emekamomodu@machine</b><span class="prompt__sep">:</span><em>~</em><span class="prompt__sep">$</span></span> <span class="typed">whoami</span></p>
+        <div class="line line--out" data-anim="out">
+          <h1 class="name">Emeka Momodu</h1>
+          <p class="role">Software Engineer <span class="dim">·</span> Backend <span class="dim">·</span> Low-Latency &amp; Quant</p>
+          <p class="meta">Canada <span class="dim">·</span> MSc <span class="dim">·</span> open to opportunities</p>
+        </div>
+
+        <p class="line line--cmd" data-anim="cmd"><span class="prompt" aria-hidden="true"><b>emekamomodu@machine</b><span class="prompt__sep">:</span><em>~</em><span class="prompt__sep">$</span></span> <span class="typed">cat about.txt</span></p>
+        <div class="line line--out" data-anim="out">
+          <p class="prose">I am a Software Engineer who loves to build and add value. Backend and full-stack, with a specialty in low-latency programming for capital markets trading and quantitative engineering.</p>
+        </div>
+
+        <p class="line line--cmd" data-anim="cmd"><span class="prompt" aria-hidden="true"><b>emekamomodu@machine</b><span class="prompt__sep">:</span><em>~</em><span class="prompt__sep">$</span></span> <span class="typed">./contact --list</span></p>
+        <div class="line line--out" data-anim="out">
+          <ul class="links">
+            <li><a href="mailto:emeka.momodu@gmail.com">email</a></li>
+            <li><a href="https://github.com/EmekaMomodu" target="_blank" rel="noopener noreferrer">github</a></li>
+            <li><a href="https://www.linkedin.com/in/chukwuemeka-momodu-9737a8106" target="_blank" rel="noopener noreferrer">linkedin</a></li>
+          </ul>
+        </div>
+
+        <p class="line line--idle" data-anim="idle"><span class="prompt" aria-hidden="true"><b>emekamomodu@machine</b><span class="prompt__sep">:</span><em>~</em><span class="prompt__sep">$</span></span> <span class="caret" aria-hidden="true"></span></p>
+      </div>
+    </div>
+
+    <a class="scroll-cue" href="#skills" aria-label="Scroll to skills">
+      <span aria-hidden="true">scroll</span>
+      <svg viewBox="0 0 24 24" aria-hidden="true" width="16" height="16"><path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </a>
+  </section>
+
+  <!--
+    ══════════════ EXPERIENCE ══════════════
+    Your old site doesn't list employers or dates, so nothing was invented here.
+    Fill in the entries below and delete these comment markers to switch it on.
+    Remember to also add  <li><a href="#experience">experience</a></li>  to the nav.
+
+  <section id="experience" class="section reveal">
+    <h2 class="section__title"><span class="prompt-mini" aria-hidden="true">$</span> git log --author="Emeka"</h2>
+    <ol class="timeline">
+      <li class="timeline__item">
+        <div class="timeline__when">2023 — present</div>
+        <h3 class="timeline__role">Job Title <span class="dim">@</span> <span class="timeline__org">Company</span></h3>
+        <p class="timeline__desc">One or two lines on what you owned and what changed because of it.</p>
+        <ul class="tags">
+          <li>Java</li><li>Spring Boot</li><li>PostgreSQL</li>
+        </ul>
+      </li>
+      <li class="timeline__item">
+        <div class="timeline__when">2021 — 2023</div>
+        <h3 class="timeline__role">Job Title <span class="dim">@</span> <span class="timeline__org">Company</span></h3>
+        <p class="timeline__desc">Description.</p>
+        <ul class="tags">
+          <li>Python</li><li>Flask</li>
+        </ul>
+      </li>
+    </ol>
+  </section>
+  -->
+
+  <!-- ══════════════ SKILLS ══════════════ -->
+  <section id="skills" class="section reveal">
+    <h2 class="section__title"><span class="prompt-mini" aria-hidden="true">$</span> ls -la ~/skills</h2>
+
+    <div class="grid grid--skills">
+      <div class="skillset">
+        <h3 class="skillset__name">languages</h3>
+        <ul class="tags">
+          <li>Java</li><li>Python</li><li>JavaScript</li><li>SQL</li>
+        </ul>
+      </div>
+      <div class="skillset">
+        <h3 class="skillset__name">backend</h3>
+        <ul class="tags">
+          <li>Spring Boot</li><li>Node.js</li><li>Express.js</li><li>Flask</li><li>REST</li><li>gRPC</li>
+        </ul>
+      </div>
+      <div class="skillset">
+        <h3 class="skillset__name">low latency &amp; quant</h3>
+        <ul class="tags">
+          <li>Low-latency systems</li><li>Capital markets</li><li>Trading systems</li><li>Quantitative engineering</li>
+        </ul>
+      </div>
+      <div class="skillset">
+        <h3 class="skillset__name">frontend</h3>
+        <ul class="tags">
+          <li>Angular</li><li>React</li><li>Socket.IO</li><li>HTML &amp; CSS</li>
+        </ul>
+      </div>
+      <div class="skillset">
+        <h3 class="skillset__name">data</h3>
+        <ul class="tags">
+          <li>MongoDB</li><li>SQL databases</li><li>Kafka</li>
+        </ul>
+      </div>
+      <div class="skillset">
+        <h3 class="skillset__name">infra &amp; tools</h3>
+        <ul class="tags">
+          <li>Kubernetes</li><li>Docker</li><li>Git</li><li>Jira</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════ PROJECTS ══════════════ -->
+  <section id="projects" class="section reveal">
+    <h2 class="section__title"><span class="prompt-mini" aria-hidden="true">$</span> ls ~/projects</h2>
+    <p class="section__note">Nine things I&rsquo;ve built. Source on <a href="https://github.com/EmekaMomodu" target="_blank" rel="noopener noreferrer">GitHub</a>.</p>
+
+    <ul class="cards">
+
+      <li class="card">
+        <a class="card__link" href="https://github.com/EmekaMomodu/WhatsAppWebClone" target="_blank" rel="noopener noreferrer">
+          <span class="card__idx" aria-hidden="true">01</span>
+          <h3 class="card__name">WhatsAppWebClone</h3>
+          <p class="card__desc">A clone of WhatsApp Web with real-time messaging over web sockets.</p>
+          <ul class="tags tags--sm"><li>React</li><li>Socket.IO</li><li>Node.js</li></ul>
+        </a>
+      </li>
+
+      <li class="card">
+        <a class="card__link" href="https://github.com/EmekaMomodu/music-app-v2" target="_blank" rel="noopener noreferrer">
+          <span class="card__idx" aria-hidden="true">02</span>
+          <h3 class="card__name">Music Web App</h3>
+          <p class="card__desc">A mobile-friendly music application built on the MEAN stack.</p>
+          <ul class="tags tags--sm"><li>MongoDB</li><li>Express</li><li>Angular</li><li>Node.js</li></ul>
+        </a>
+      </li>
+
+      <li class="card">
+        <a class="card__link" href="https://github.com/EmekaMomodu/drone-web-service" target="_blank" rel="noopener noreferrer">
+          <span class="card__idx" aria-hidden="true">03</span>
+          <h3 class="card__name">Drone Web Service</h3>
+          <p class="card__desc">RESTful API for managing a fleet of drones &mdash; registration, loading and battery checks.</p>
+          <ul class="tags tags--sm"><li>Java</li><li>Spring Boot</li><li>REST</li></ul>
+        </a>
+      </li>
+
+      <li class="card">
+        <a class="card__link" href="https://github.com/EmekaMomodu/LoanDefaultWebAPI" target="_blank" rel="noopener noreferrer">
+          <span class="card__idx" aria-hidden="true">04</span>
+          <h3 class="card__name">Loan Default Web API</h3>
+          <p class="card__desc">A machine-learning service that predicts the likelihood of loan default, served over HTTP.</p>
+          <ul class="tags tags--sm"><li>Python</li><li>Flask</li><li>ML</li></ul>
+        </a>
+      </li>
+
+      <li class="card">
+        <a class="card__link" href="https://github.com/EmekaMomodu/uda-connect" target="_blank" rel="noopener noreferrer">
+          <span class="card__idx" aria-hidden="true">05</span>
+          <h3 class="card__name">Uda-Connect</h3>
+          <p class="card__desc">A microservices proof-of-concept: a monolith decomposed into services communicating over gRPC and Kafka.</p>
+          <ul class="tags tags--sm"><li>Kubernetes</li><li>Flask</li><li>gRPC</li><li>Kafka</li></ul>
+        </a>
+      </li>
+
+      <li class="card">
+        <a class="card__link" href="https://github.com/EmekaMomodu/metrics-dashboard" target="_blank" rel="noopener noreferrer">
+          <span class="card__idx" aria-hidden="true">06</span>
+          <h3 class="card__name">Metrics Dashboard</h3>
+          <p class="card__desc">A multi-graph monitoring dashboard for an application running on a Kubernetes cluster.</p>
+          <ul class="tags tags--sm"><li>Python</li><li>Kubernetes</li><li>Monitoring</li></ul>
+        </a>
+      </li>
+
+      <li class="card">
+        <a class="card__link" href="https://github.com/EmekaMomodu/squadio-microservice" target="_blank" rel="noopener noreferrer">
+          <span class="card__idx" aria-hidden="true">07</span>
+          <h3 class="card__name">Account Microservice</h3>
+          <p class="card__desc">A microservice exposing APIs to view users, accounts and statements.</p>
+          <ul class="tags tags--sm"><li>Java</li><li>Spring Boot</li></ul>
+        </a>
+      </li>
+
+      <li class="card">
+        <a class="card__link" href="https://github.com/EmekaMomodu" target="_blank" rel="noopener noreferrer">
+          <span class="card__idx" aria-hidden="true">08</span>
+          <h3 class="card__name">AEUnion</h3>
+          <p class="card__desc">A wedding website with a gift registry, integrated with Paystack for payments.</p>
+          <ul class="tags tags--sm"><li>JavaScript</li><li>CSS</li><li>Paystack</li></ul>
+        </a>
+      </li>
+
+      <li class="card">
+        <a class="card__link" href="https://github.com/EmekaMomodu/StoresRestApi" target="_blank" rel="noopener noreferrer">
+          <span class="card__idx" aria-hidden="true">09</span>
+          <h3 class="card__name">Stores REST API</h3>
+          <p class="card__desc">A REST API serving resources for stores and the items they hold.</p>
+          <ul class="tags tags--sm"><li>Python</li><li>Flask</li><li>REST</li></ul>
+        </a>
+      </li>
+
+    </ul>
+  </section>
+
+  <!-- ══════════════ CONTACT ══════════════ -->
+  <section id="contact" class="section reveal">
+    <h2 class="section__title"><span class="prompt-mini" aria-hidden="true">$</span> ./contact.sh</h2>
+
+    <div class="window window--flush">
+      <div class="window__bar">
+        <span class="window__dots" aria-hidden="true"><i></i><i></i><i></i></span>
+        <span class="window__title">contact</span>
+      </div>
+      <div class="window__body term">
+        <p class="prose">Open to new opportunities and interesting problems. The fastest way to reach me is email.</p>
+
+        <p class="line line--cmd">
+          <span class="prompt" aria-hidden="true"><b>emekamomodu@machine</b><span class="prompt__sep">:</span><em>~</em><span class="prompt__sep">$</span></span>
+          <a class="mail" href="mailto:emeka.momodu@gmail.com">emeka.momodu@gmail.com</a>
+          <button class="copy" type="button" data-copy="emeka.momodu@gmail.com">copy</button>
+        </p>
+
+        <ul class="links links--lg">
+          <li><a href="https://github.com/EmekaMomodu" target="_blank" rel="noopener noreferrer">github.com/EmekaMomodu</a></li>
+          <li><a href="https://www.linkedin.com/in/chukwuemeka-momodu-9737a8106" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p><span class="prompt-mini" aria-hidden="true">$</span> exit &mdash; built by Emeka Momodu &copy; <span id="year">2026</span></p>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
