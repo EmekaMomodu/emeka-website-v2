@@ -16,8 +16,15 @@
 <meta property="og:url" content="https://www.emekamomodu.com/">
 <meta name="twitter:card" content="summary">
 
-<!-- Inline SVG favicon: a terminal prompt. No network request, no 404. -->
+<!-- Icons. The inline SVG covers desktop tabs with no network request;
+     the PNGs exist because iOS ignores SVG for home-screen icons and
+     Android wants manifest PNGs for "add to home screen". -->
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='18' fill='%230b0f14'/><path d='M22 32l18 18-18 18' fill='none' stroke='%238fa8c8' stroke-width='11' stroke-linecap='round' stroke-linejoin='round'/><path d='M52 70h26' stroke='%238fa8c8' stroke-width='11' stroke-linecap='round'/></svg>">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<link rel="manifest" href="site.webmanifest">
+<meta name="apple-mobile-web-app-title" content="Emeka">
 
 <link rel="stylesheet" href="styles.css">
 
